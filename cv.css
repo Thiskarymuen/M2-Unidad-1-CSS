@@ -1,20 +1,30 @@
 *{
     font-family: 'PT Sans Narrow', sans-serif;
 }
+.material-symbols-outlined {
+    clear: left;
+    text-align: right;
+    vertical-align: text-bottom;
+    line-height:23px;
+    font-variation-settings:'FILL' 1,'wght' 400,'GRAD' 0,'opsz' 40;
+  }
+
+
 .web-container{
+    border-radius: 1%;
     outline: 1px solid #000000;
-    position: absolute;
     display: block;
+    position: absolute;
     margin-left: 50vh;
     margin-right: 50vh;
-    min-height: 80vh;
+    min-height: 70vh;
     font-size: 9px;
+    margin-top: 5vh;
     box-shadow: 0px 0px 35px -8px #383838;
 }
 
 
 img{
-    margin-left: 400px;
     border-radius: 10%;
     border: 1px solid black;
     max-width: 55%;
@@ -29,4 +39,8 @@ header{
 main{
     margin: 15px;
     font-size: 14px;
+}
+
+li{
+    list-style: none;
 }
